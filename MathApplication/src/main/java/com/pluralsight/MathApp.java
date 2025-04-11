@@ -20,9 +20,10 @@ public class MathApp {
     // declare variables here
         double bobSalary = 50000;
         double garySalary = 200000.99;
+        double highestSalary;
 
-    // then code solution
-        double highestSalary = Math.max(bobSalary, garySalary);
+        // then code solution
+        highestSalary = Math.max(bobSalary, garySalary);
 
     // then use System.out.println() to display results
         System.out.println("The highest salary is: " + highestSalary);
@@ -34,9 +35,11 @@ public class MathApp {
     static void cheapestCar () {
         double carPrice = 15000;
         double truckPrice = 17283;
-        double cheapestVehicle = Math.min(carPrice, truckPrice);
+        double cheapestVehicle;
 
-        System.out.println("The cheapest vehicle cost: $" + cheapestVehicle);
+        cheapestVehicle= Math.min(carPrice, truckPrice);
+
+        System.out.printf("The cheapest vehicle cost: $" + cheapestVehicle + "%n");
     }
 
 

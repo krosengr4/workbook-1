@@ -6,7 +6,8 @@ public class Person {
     int age;
 
     public Person(String name, int age, int height) {
-        System.out.println("Hi my name is" + name + "My age is" + age + "years old");
+
+        System.out.println("Hi my name is " + name + "My age is " + age + " years old ");
 
     }
 }

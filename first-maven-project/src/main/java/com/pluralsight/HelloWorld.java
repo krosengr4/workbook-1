@@ -13,7 +13,7 @@ public class HelloWorld {
         String name = "Kevin";
         System.out.println("Hello " + name);
 
-        Person person1 = new Person("Kevin", 24, 183);
+        Person person1 = new Person("Kevin ", 24, 183);
 
         saysHi();
         
