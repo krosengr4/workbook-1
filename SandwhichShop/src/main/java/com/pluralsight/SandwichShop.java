@@ -18,7 +18,7 @@ public class SandwichShop {
 
         double price = 0;
         double discount = 0;
-        double totalPrice = 0;
+        double totalPrice;
 
         if (sandwichSize == 1) {
             price += 5.45;
@@ -27,7 +27,7 @@ public class SandwichShop {
         } else {
             System.out.println("Error: Invalid response. Please select either 1 or 2 for sandwich size.");
         }
-        System.out.println("The initial price for the sandwich is: " + price);
+        System.out.println("The initial price for the sandwich is: $" + price);
 
 
         if (age <= 17) {
