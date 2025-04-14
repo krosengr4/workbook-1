@@ -3,6 +3,7 @@ package com.pluralsight;
 //
 import java.util.Scanner;
 
+// in a class we have methods and fields (or variables)
 public class Playground {
 
     public static void main(String[] args) {

@@ -2,8 +2,8 @@ package com.pluralsight;
 
 import java.util.Scanner;
 
-public class BasicCalculator {
 
+public class BasicCalculator {
 
     public static void main(String[] args) {
 
@@ -35,8 +35,9 @@ public class BasicCalculator {
                 System.out.println("Result: " + result);
             } else {
                 System.out.println("Error: Cannot divide by 0.");
-        }
-    } else {
+            }
+        } else {
             System.out.println("Error: invalid operation.");
         }
+
 }}
