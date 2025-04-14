@@ -1,6 +1,6 @@
 package com.pluralsight;
 
-//
+//importing the scanner
 import java.util.Scanner;
 
 // in a class we have methods and fields (or variables)
