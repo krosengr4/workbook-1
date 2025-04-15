@@ -41,6 +41,13 @@ public class StringLoopsAndArrays {
         System.out.println("First name: " + nameParts[0]);
         System.out.println("Last name: " + nameParts[1]);
 
+        String name2 = "Jamie|Benn";
+
+        String[] nameParts2 = name2.split("\\|");
+
+        System.out.println("First name: " + nameParts2[0]);
+        System.out.println("Last name: " + nameParts2[1]);
+
     }
 
 }

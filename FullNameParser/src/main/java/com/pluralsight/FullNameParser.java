@@ -8,14 +8,28 @@ public class FullNameParser {
 
         Scanner myScanner = new Scanner(System.in);
 
-        System.out.println("Please enter your full name formatted \"First Middle Last\": ");
+        System.out.println("Please enter your full name: ");
         String fullName = myScanner.nextLine();
+
+        fullName = fullName.trim();
 
         String[] nameParts = fullName.split(" ");
 
         System.out.println("First name: " + nameParts[0]);
-        System.out.println("Middle name: " + nameParts[1]);
-        System.out.println("Last name: " + nameParts[2]);
+
+//        System.out.println(nameParts.length);
+
+        if(nameParts.length == 2) {
+            System.out.println("Last name: " + nameParts[1]);
+        } else if (nameParts.length == 3) {
+            System.out.println("Middle name: " + nameParts[1]);
+            System.out.println("Last name: " + nameParts[2]);
+        } else {
+            System.out.println("Error: Incorrect number of names entered");
+        }
+
+//        System.out.println("Middle name: " + nameParts[1]);
+//        System.out.println("Last name: " + nameParts[2]);
 
     }
 
