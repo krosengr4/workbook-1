@@ -25,7 +25,7 @@ public class FullNameParser {
             System.out.println("Middle name: " + nameParts[1]);
             System.out.println("Last name: " + nameParts[2]);
         } else {
-            System.out.println("Error: Incorrect number of names entered");
+            System.out.println("Error: Incorrect number of names entered. Enter only first middle and last.");
         }
 
 //        System.out.println("Middle name: " + nameParts[1]);
