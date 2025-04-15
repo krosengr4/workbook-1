@@ -6,9 +6,10 @@ public class StringLoopsAndArrays {
 
     public static void main(String[] args) {
 
-        formatString();
-        printNameAndLength("Kevin");
-        printNameAndLength("Alexander");//<--- printNameAndLength method takes in a string parameter
+//        formatString();
+//        printNameAndLength("Kevin");
+//        printNameAndLength("Alexander");//<--- printNameAndLength method takes in a string parameter
+        stringSplitting();
 
     }
 
@@ -32,5 +33,14 @@ public class StringLoopsAndArrays {
         System.out.println("The second letter of the name is: " + i.charAt(1)); //<--- charAt() is 0 indexed
     }
 
+    static void stringSplitting() {
+        String name = "Kevin Rosengren";
+
+        String[] nameParts = name.split(" "); ///<--- Use the .split to split Strings
+
+        System.out.println("First name: " + nameParts[0]);
+        System.out.println("Last name: " + nameParts[1]);
+
+    }
 
 }
