@@ -7,7 +7,8 @@ public class StringLoopsAndArrays {
     public static void main(String[] args) {
 
         formatString();
-        printNameAndLength("Kevin"); //<--- printNameAndLength method takes in a string parameter
+        printNameAndLength("Kevin");
+        printNameAndLength("Alexander");//<--- printNameAndLength method takes in a string parameter
 
     }
 
