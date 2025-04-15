@@ -10,6 +10,7 @@ public class StringLoopsAndArrays {
 //        printNameAndLength("Kevin");
 //        printNameAndLength("Alexander");//<--- printNameAndLength method takes in a string parameter
         stringSplitting();
+        stringBuilder();
 
     }
 
@@ -41,12 +42,31 @@ public class StringLoopsAndArrays {
         System.out.println("First name: " + nameParts[0]);
         System.out.println("Last name: " + nameParts[1]);
 
+        // Example using the | character
         String name2 = "Jamie|Benn";
 
         String[] nameParts2 = name2.split("\\|");
 
         System.out.println("First name: " + nameParts2[0]);
         System.out.println("Last name: " + nameParts2[1]);
+
+    }
+
+    static void stringBuilder() {
+        String part1 = "a";
+        String part2 = "b";
+
+        String c = part1 + part2;
+
+        // Using StringBuilder() method to add things to a string like it were an array.
+        StringBuilder employees = new StringBuilder();
+        employees.append("Tom, ");
+        employees.append("Mark, ");
+        employees.append("Tim, ");
+
+        String employeeString = employees.toString();
+
+        System.out.println("Your list of employees: " + "\n" + employeeString);
 
     }
 

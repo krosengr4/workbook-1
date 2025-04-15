@@ -11,6 +11,7 @@ public class FullNameApplication {
         System.out.println("Please enter your first name: ");
         String firstName = myScanner.nextLine();
 
+
         System.out.println("Please enter your middle name (press Enter to skip): ");
         String middleName = myScanner.nextLine();
 
@@ -24,6 +25,7 @@ public class FullNameApplication {
                 + (middleName.isEmpty() ? "" : middleName + " ")
                 + lastName
                 + (suffix.isEmpty() ? "" : ", " + suffix);
+
 
         System.out.println("Your full name is: " + fullName);
 

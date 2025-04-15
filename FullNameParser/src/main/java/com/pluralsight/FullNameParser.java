@@ -7,6 +7,7 @@ public class FullNameParser {
     public static void main(String[] args) {
 
         Scanner myScanner = new Scanner(System.in);
+        System.out.println("Welcome to the Name Parser!");
 
         System.out.println("Please enter your full name: ");
         String fullName = myScanner.nextLine();
