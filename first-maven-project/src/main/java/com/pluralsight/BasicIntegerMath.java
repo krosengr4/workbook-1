@@ -7,6 +7,7 @@ public class BasicIntegerMath {
         int b = 3;
         int result;
 
+        //result ab
         result = a + b;
         System.out.println("Sum: " + result);
 
